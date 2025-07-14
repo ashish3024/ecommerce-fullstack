@@ -65,7 +65,7 @@ const LoginSignup = () => {
 
   const signup = async () => {
     let dataObj;
-    await fetch('http://localhost:4000/signup', {
+    await fetch('https://ecommerce-backend-m0wm.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept:'application/form-data',

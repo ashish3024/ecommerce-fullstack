@@ -19,7 +19,7 @@ const getDefaultCart = () => {
 
 useEffect(() => {
     
-          fetch("http://localhost:4000/allproducts")
+          fetch("https://ecommerce-backend-m0wm.onrender.com/allproducts")
         .then((response) => response.json())
         .then((data) => {
             setAllProduct(data);
