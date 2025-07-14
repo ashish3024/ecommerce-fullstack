@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 //database connection
-mongoose.connect(process.env.MONGODB_URL);
+mongoose.connect(process.env.MONGODB_URI);
 
 
 //Api creation
